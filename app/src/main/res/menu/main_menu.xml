@@ -9,6 +9,12 @@
         app:showAsAction="never"
         android:onClick="menuInfo"/>
 
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="101"
+        android:title="Settings"
+        android:onClick="menusettings"
+        app:showAsAction="never"/>
     <item android:id="@+id/menu_help"
         android:icon="@drawable/help"
         android:title="Help"
